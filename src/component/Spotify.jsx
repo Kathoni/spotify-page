@@ -1,5 +1,6 @@
 import React from 'react';
 import '../spotify.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
@@ -17,13 +18,15 @@ const Header = () => (
   <header className="header">
     <div className="logo">Spotify</div>
     <nav>
-        <ul>
+        <ul
+        style={{cursor:'pointer'}}>
             <li>Features</li>
             <li>Pricing</li>
             <li>Download</li>
         </ul>
     </nav>
-    <button className="cta-button">Get Spotify</button>
+    <br />
+    <button className="cta-button">LOGIN</button>
   </header>
 );
 
@@ -40,7 +43,7 @@ const MainContent = () => (
 const HeroSection = () => (
   <section className="hero">
     <h1>Music for everyone.</h1>
-    <p>Millions of songs and podcasts. No credit card needed.</p>
+    <p>Millions of songs and podcasts.</p>
     <button className="cta-button">Get Started</button>
   </section>
 );
@@ -62,8 +65,16 @@ const TestimonialsSection = () => (
 const PricingSection = () => (
   <section id="pricing" className="pricing">
     <h2>Pricing</h2>
-    <button>GET PREMIUM</button>
-    <button>BASIC PLAN</button>
+    <button
+    style={{borderRadius:'15px',
+        background:'#abebc6'
+    }}>GET PREMIUM</button>
+    <br />
+    <button
+    style={{
+        borderRadius:'15px',
+        background:'#abebc6'
+    }}>BASIC PLAN</button>
   </section>
 );
 
@@ -77,7 +88,8 @@ const CallToAction = () => (
 const Footer = () => (
   <footer className="footer">
     <nav>
-        <ul>
+        <ul
+        style={{cursor:"pointer"}}>
             <li>About</li>
             <li>Careers</li>
             <li>Privacy</li>
@@ -85,13 +97,22 @@ const Footer = () => (
         </ul>
     </nav>
     <div className="social-media">
-    <li>
-        <i class="bi bi-instagram">ig</i></li>
+        <ul
+        style={{
+            listStyle: 'none',
+            alignItems:"center",
+            justifyContent:"center",
+            justifyItems:"initial",
+            display:"flex",
+            padding:"5px",
+            margin: '0 15px',
+
+        }}>
+    <li >
+        <i class="bi bi-instagram"></i></li>
             <li><i class="bi bi-twitter"></i></li>
-            <li><i class="bi bi-facebook"></i></li>
-            <li><i class="bi bi-youtube"></i></li>
             <li><i class="bi bi-linkedin"></i></li>
- 
+        </ul>
     </div>
   </footer>
 );

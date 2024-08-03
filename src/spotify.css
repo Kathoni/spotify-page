@@ -1,7 +1,5 @@
-/* spotify.css */
 
 .spotify-landing-page {
-  font-family: 'Arial', sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -29,11 +27,11 @@
 }
 
 nav ul {
-  list-style: none; /* Remove bullets from lists */
+  list-style: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Align list items horizontally */
-  justify-content: center; /* Center align items */
+  display: flex; 
+  justify-content: center; 
 }
 
 nav ul li {
@@ -44,7 +42,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  cursor: pointer; /* Change cursor to pointer */
+  cursor: pointer;
 }
 
 nav ul li a:hover {
