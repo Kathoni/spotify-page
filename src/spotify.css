@@ -1,0 +1,126 @@
+/* spotify.css */
+
+.spotify-landing-page {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: #1DB954;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: #1DB954;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none; /* Remove bullets from lists */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align list items horizontally */
+  justify-content: center; /* Center align items */
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cta-button {
+  background-color: #FFF;
+  color: #1DB954;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e1e1e1;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #121212;
+}
+
+.hero {
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.features, .testimonials, .pricing, .call-to-action {
+  margin: 40px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.features h2, .testimonials h2, .pricing h2, .call-to-action h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.call-to-action .cta-button {
+  background-color: #1DB954;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action .cta-button:hover {
+  background-color: #17a74a;
+}
+
+.footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-media {
+  margin-top: 10px;
+}
